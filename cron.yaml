@@ -4,6 +4,7 @@ name: GitHub Actions - cron test
 
 
 on:
+  push:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
